@@ -1,0 +1,53 @@
+{
+  //Number of images to generate
+  "num_images": 10,
+
+  //Whether to use COCO format for output annotations
+  "coco": true,
+
+  //Whether to use HDF5 format for saving images and annotations
+  "hdf5": false,
+
+  //Whether to split the dataset into training, validation, and testing sets
+  "dataset_split": true,
+
+  //Percentage of images to use for training
+  "train_percent": 70,
+
+  //Percentage of images to use for validation
+  "val_percent": 10,
+
+  //Percentage of images to use for testing
+  "test_percent": 20,
+
+  //Width of the generated images
+  "img_width": 512,
+
+  //Height of the generated images
+  "img_height": 512,
+
+  //The light type to set, can be one of [POINT, SUN, SPOT, AREA]
+
+  "light_type":  ["POINT"],
+
+  //RGB values for the light color
+  "light_color_rgb": [205, 205, 255],
+
+  //Energy level of the light
+  "light_energy": 0.125,
+
+  //Blender Color Space values for the background color (Blender Space ---> RGB values normalized into 1 (RGB value / 255)
+  "bg_color_rgb": [0.03, 0.03, 0.03],
+
+  //Blender Color Space values for the object color
+  "obj_color_rgb": [0, 0, 0.5],
+
+  //Whether to focus on specific objects during image generation
+  "focus_objects": true,
+
+  //Objects to focus on  during image generation
+  "focus_obj": ["engine_part_cooler_round", "engine_part_cooler_square"],
+
+  //Threshold value for setting border values
+  "border_threshold": 0.0000001
+}

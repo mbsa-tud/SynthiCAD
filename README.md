@@ -179,9 +179,9 @@ Additional information and detailed explanations about the BlenderProc functions
 | Blender python API reference manual | https://docs.blender.org/api/current/index.html |
 
 ### Citation
-```sh
+
 Schuerrle, B., Sankarappan, V., & Morozov, A. (2023). SynthiCAD: Generation of Industrial Image Data Sets for Resilience Evaluation of Safety-Critical Classifiers. In Proceeding of the 33rd European Safety and Reliability Conference. 33rd European Safety and Reliability Conference. Research Publishing Services. https://doi.org/10.3850/978-981-18-8071-1_p400-cd
-```
+
 
 ### Contribution
 
